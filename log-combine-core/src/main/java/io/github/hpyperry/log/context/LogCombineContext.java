@@ -15,10 +15,10 @@
  *
  */
 
-package cn.beichenhpy.log.context;
+package io.github.hpyperry.log.context;
 
-import cn.beichenhpy.log.entity.LogInfo;
-import cn.beichenhpy.log.enums.LogLevel;
+import io.github.hpyperry.log.entity.LogInfo;
+import io.github.hpyperry.log.enums.LogLevel;
 import org.slf4j.helpers.MessageFormatter;
 
 import java.time.LocalDateTime;
@@ -28,7 +28,7 @@ import java.time.format.DateTimeFormatter;
  * Context for log combine
  * <p>CREATE_TIME: 2022/4/23 15:51
  *
- * @author beichenhpy
+ * @author hpyperry
  * @version 1.0.0
  */
 public class LogCombineContext {

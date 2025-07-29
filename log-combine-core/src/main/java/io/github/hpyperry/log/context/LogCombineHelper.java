@@ -15,9 +15,9 @@
  *
  */
 
-package cn.beichenhpy.log.context;
+package io.github.hpyperry.log.context;
 
-import cn.beichenhpy.log.enums.LogLevel;
+import io.github.hpyperry.log.enums.LogLevel;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -35,7 +35,7 @@ import org.slf4j.LoggerFactory;
  * </pre>
  * CREATE_TIME: 2022/4/23 16:12
  *
- * @author beichenhpy
+ * @author hpyperry
  * @version 1.0.0
  */
 public class LogCombineHelper {

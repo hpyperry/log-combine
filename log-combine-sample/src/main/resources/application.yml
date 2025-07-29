@@ -1,3 +1,3 @@
 logging:
   level:
-    cn.beichenhpy.log: info
+    io.github.hpyperry.log: info

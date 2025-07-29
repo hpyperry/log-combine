@@ -15,7 +15,7 @@
  *
  */
 
-package cn.beichenhpy.log.entity;
+package io.github.hpyperry.log.entity;
 
 /**
  * <PRE>
@@ -23,7 +23,7 @@ package cn.beichenhpy.log.entity;
  * </PRE>
  * CREATE_TIME: 2022/4/23 15:50
  *
- * @author beichenhpy
+ * @author hpyperry
  * @version 1.0.0
  */
 

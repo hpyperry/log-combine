@@ -15,10 +15,10 @@
  *
  */
 
-package cn.beichenhpy.sample.controller;
+package io.github.hpyperry.sample.controller;
 
-import cn.beichenhpy.log.annotation.LogCombine;
-import cn.beichenhpy.log.context.LogCombineHelper;
+import io.github.hpyperry.log.annotation.LogCombine;
+import io.github.hpyperry.log.context.LogCombineHelper;
 import lombok.SneakyThrows;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -36,7 +36,7 @@ import java.util.concurrent.Future;
  * </PRE>
  * CREATE_TIME: 2022/4/23 16:47
  *
- * @author beichenhpy
+ * @author hpyperry
  * @version 1.0.0
  */
 @Slf4j

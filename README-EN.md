@@ -5,11 +5,11 @@ The print result is as follows:
 
 ```text
 2022-05-08 10:50:02.315  INFO 20390 --- [nio-8080-exec-6] c.b.log.context.LogCombineHelper : 
-2022-05-08 10:50:02,313 - [http-nio-8080-exec-6] INFO cn.beichenhpy.sample.controller.SampleController - [71] - test:1,2
-2022-05-08 10:50:02,313 - [http-nio-8080-exec-6] DEBUG cn.beichenhpy.sample.controller.SampleController - [72] - test2:3,4
-2022-05-08 10:50:02,314 - [http-nio-8080-exec-6] DEBUG cn.beichenhpy.sample.controller.SampleService - [43] - test3:test333
+2022-05-08 10:50:02,313 - [http-nio-8080-exec-6] INFO controller.io.github.hpyperry.sample.SampleController - [71] - test:1,2
+2022-05-08 10:50:02,313 - [http-nio-8080-exec-6] DEBUG controller.io.github.hpyperry.sample.SampleController - [72] - test2:3,4
+2022-05-08 10:50:02,314 - [http-nio-8080-exec-6] DEBUG controller.io.github.hpyperry.sample.SampleService - [43] - test3:test333
 2022-05-08 10:50:06.318  INFO 20390 --- [pool-4-thread-1] c.b.log.context.LogCombineHelper : 
-2022-05-08 10:50:02,314 - [pool-4-thread-1] DEBUG cn.beichenhpy.sample.controller.SampleController - [79] - test3:5
+2022-05-08 10:50:02,314 - [pool-4-thread-1] DEBUG controller.io.github.hpyperry.sample.SampleController - [79] - test3:5
 ```
 
 【notice】 📢:`LogCombineHelper.pushNest()`and`LogCombineHelper.popNest()`can not mixed `@LogCombine`
@@ -35,7 +35,7 @@ you can see `log-combine-sample`, this is a simple example.
 ```xml
 
 <dependency>
-    <groupId>cn.beichenhpy</groupId>
+    <groupId>io.github.hpyperry</groupId>
     <artifactId>log-combine-core</artifactId>
     <version>0.0.2-SNAPSHOT</version>
 </dependency>
@@ -130,7 +130,7 @@ class Test2 {
 ```xml
 
 <dependency>
-    <groupId>cn.beichenhpy</groupId>
+    <groupId>io.github.hpyperry</groupId>
     <artifactId>log-combine-starter</artifactId>
     <version>0.0.2-SNAPSHOT</version>
 </dependency>

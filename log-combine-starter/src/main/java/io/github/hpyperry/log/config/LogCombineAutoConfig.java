@@ -15,9 +15,9 @@
  *
  */
 
-package cn.beichenhpy.log.config;
+package io.github.hpyperry.log.config;
 
-import cn.beichenhpy.log.aspect.LogCombinePrintAspect;
+import io.github.hpyperry.log.aspect.LogCombinePrintAspect;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
@@ -25,7 +25,7 @@ import org.springframework.context.annotation.Configuration;
  * Config for aspect and ThreadPool
  * CREATE_TIME: 2022/4/23 16:27
  *
- * @author beichenhpy
+ * @author hpyperry
  * @version 1.0.0
  */
 @Configuration

@@ -8,17 +8,16 @@
         <module>log-combine-starter</module>
         <module>log-combine-sample</module>
     </modules>
-    <groupId>cn.beichenhpy</groupId>
+    <groupId>io.github.hpyperry</groupId>
     <artifactId>log-combine</artifactId>
     <version>0.0.2-SNAPSHOT</version>
     <name>log-combine</name>
     <description>a tool for combined log printing in one method</description>
-    <url>https://beichenhpy.cn</url>
 
     <developers>
         <developer>
             <name>韩鹏宇</name>
-            <email>beichenhpy@outlook.com</email>
+            <email>hpyperry@163.com</email>
         </developer>
     </developers>
 
@@ -61,7 +60,7 @@
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
-            <version>1.18.24</version>
+            <version>1.18.30</version>
             <optional>true</optional>
         </dependency>
     </dependencies>

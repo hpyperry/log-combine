@@ -15,31 +15,21 @@
  *
  */
 
-package cn.beichenhpy.sample.controller;
+package io.github.hpyperry.log.annotation;
 
-import cn.beichenhpy.log.annotation.LogCombine;
-import cn.beichenhpy.log.context.LogCombineHelper;
-import org.springframework.stereotype.Service;
+import java.lang.annotation.ElementType;
+import java.lang.annotation.Retention;
+import java.lang.annotation.RetentionPolicy;
+import java.lang.annotation.Target;
 
 /**
- * <pre>
+ * 所有添加了该注解的方法，并使用{@code LogCombineHelper.xxx}的，都会合并日志打印
+ * CREATE_TIME: 2022/4/23 16:32
  *
- * </pre>
- *
- * @author beichenhpy
- * <p> 2022/4/24 09:07
+ * @author hpyperry
+ * @version 1.0.0
  */
-@Service
-public class SampleService {
-
-    @LogCombine
-    public void test2() {
-        LogCombineHelper.info("service:{}", 2);
-    }
-
-
-    public void test3() {
-        LogCombineHelper.info("test3:{}", "test333");
-        LogCombineHelper.print();
-    }
+@Target({ElementType.METHOD})
+@Retention(RetentionPolicy.RUNTIME)
+public @interface LogCombine {
 }

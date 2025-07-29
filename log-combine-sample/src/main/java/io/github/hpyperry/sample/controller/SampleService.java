@@ -15,25 +15,31 @@
  *
  */
 
-package cn.beichenhpy.sample;
+package io.github.hpyperry.sample.controller;
 
-import cn.beichenhpy.log.annotation.EnableLogCombine;
-import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
+import io.github.hpyperry.log.annotation.LogCombine;
+import io.github.hpyperry.log.context.LogCombineHelper;
+import org.springframework.stereotype.Service;
 
 /**
- * <PRE>
+ * <pre>
  *
- * </PRE>
- * CREATE_TIME: 2022/4/23 16:44
+ * </pre>
  *
- * @author beichenhpy
- * @version 1.0.0
+ * @author hpyperry
+ * <p> 2022/4/24 09:07
  */
-@EnableLogCombine
-@SpringBootApplication
-public class SampleEnter {
-    public static void main(String[] args) {
-        SpringApplication.run(SampleEnter.class, args);
+@Service
+public class SampleService {
+
+    @LogCombine
+    public void test2() {
+        LogCombineHelper.info("service:{}", 2);
+    }
+
+
+    public void test3() {
+        LogCombineHelper.info("test3:{}", "test333");
+        LogCombineHelper.print();
     }
 }

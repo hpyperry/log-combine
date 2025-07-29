@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
         <artifactId>log-combine</artifactId>
-        <groupId>cn.beichenhpy</groupId>
+        <groupId>io.github.hpyperry</groupId>
         <version>0.0.2-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
@@ -19,7 +19,7 @@
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
         <dependency>
-            <groupId>cn.beichenhpy</groupId>
+            <groupId>io.github.hpyperry</groupId>
             <artifactId>log-combine-starter</artifactId>
             <version>0.0.2-SNAPSHOT</version>
         </dependency>

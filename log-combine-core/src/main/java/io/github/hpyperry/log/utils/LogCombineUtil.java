@@ -1,7 +1,7 @@
-package cn.beichenhpy.log.utils;
+package io.github.hpyperry.log.utils;
 
 /**
- * @author beichenhpy
+ * @author hpyperry
  * <p> 2022/5/18 21:26
  */
 public class LogCombineUtil {
@@ -37,7 +37,7 @@ public class LogCombineUtil {
     }
 
     public static void main(String[] args) {
-        String origin = "cn.beichenhpy.log.LogCombineHelper";
+        String origin = "io.github.hpyperry.log.LogCombineHelper";
         String s = curtailReference(origin, 20);
         System.out.println(s);
     }
